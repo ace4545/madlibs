@@ -39,6 +39,15 @@ var prompts = [
  	'',
  	'',
  	'',
+ 	'',
+ 	'',
+ 	'',
+ 	'',
+ 	'',
+ 	'',
+ 	'',
+ 	'',
+ 	'',
    ];
 
 var answers=[];
@@ -143,7 +152,7 @@ var showFinal = function() {
 
   );
   
-  $('button').hide();
+  $('#next').hide();
   
 }
 // run nextPrompt function when button is clicked
