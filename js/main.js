@@ -153,3 +153,7 @@ $('#reload').on('click', function() {
 // Show the first prompt as soon as js loads
 nextPrompt();
 
+setTimeout(function() {
+  $('.welcome').fadeOut()
+  $('.hidden').fadeIn()
+}, 1000)
