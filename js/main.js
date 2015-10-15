@@ -1,5 +1,6 @@
 console.log("JAVASCRIPT Loaded!")
 
+
 // List of prompts for the user
 var prompts = [
 	'Type 1st name',
@@ -34,6 +35,8 @@ var prompts = [
  	'Type',
  	'Type',
  	'Type',
+  'Type',
+  'Type',
   'Type',
    ];
 
