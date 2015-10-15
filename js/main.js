@@ -8,16 +8,16 @@ var prompts = [
   	'Type 1st name',
   	'Type 2nd name',
   	'Type Place',
- 	'Type Restaurants name',
+ 	"Type Restaurant's name",
  	'Type favorite food',
  	'Type an adjective',
- 	'Famous Celebrity',
- 	'',
- 	'',
- 	'',
- 	'',
- 	'',
- 	'',
+ 	'Type Famous Celebrity',
+ 	'Type Famous Celebrity',
+ 	"Type Restaurant's name",
+ 	'Type adjective',
+ 	'Type adjective',
+ 	'Type adjective',
+ 	'Type',
  	'',
  	'',
  	'',
@@ -88,8 +88,8 @@ var showFinal = function() {
   + '</span> met his friend <span class="fill">'
   +answers[4]
   +'</span> . <span class="fill">'
-  +answers[5]+
-  '</span> , they walked to the<span class="fill">'
+  +answers[5]
+  +'</span> , they walked to the<span class="fill">'
   +answers[6]
   +'</span> . They felt Hungry and went to the local restaurant<span class="fill">'
   +answers[7]
@@ -103,15 +103,15 @@ var showFinal = function() {
   +answers[11]
   +'</span> <span class="fill">'
   +answers[12]
-  +'</span> <span class="fill">'
+  +'</span> got up, asked for the manager, then left. <span class="fill">'
   +answers[13]
-  +'</span> <span class="fill">'
+  +'</span> Later, after finishing their <span class="fill">'
   +answers[14]
-  +'</span> <span class="fill">'
+  +'</span> meal, they left to go to the Spy museum. The Museum was the only <span class="fill">'
   +answers[15]
-  +'</span> <span class="fill">'
+  +'</span> museum to hold the <span class="fill">'
   +answers[16]
-  +'</span> <span class="fill">'
+  +'</span> gadgets of the spy world. <span class="fill">'
   +answers[17]
   +'</span> <span class="fill">'
   +answers[18]
