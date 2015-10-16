@@ -110,7 +110,7 @@ var showFinal = function() {
   +answers[17]
   +'</span>narrator is crazy. <span class="fill">'
   +answers[18]
-  +'</span> was too drunk to realize she in in this story.<span class="fill">'
+  +'</span> was too drunk to realize she is in this story.<span class="fill">'
   +answers[19]
   +'</span> wanted to go to<span class="fill">'
   +answers[20]
@@ -162,7 +162,7 @@ nextPrompt();
 setTimeout(function() {
   $('.welcome').fadeOut()
   $('.hidden').fadeIn()
-}, 1000);
+}, 5000);
 
 $('#back').on('click', function() {
   console.log("help");
